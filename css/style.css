@@ -1,0 +1,76 @@
+:root{
+    --header-bg-color: rgb(44 63 80);
+    --hero-bg-color:rgb(26 188 156);
+    --color-white: white;
+}
+img*{
+    max-width: 100%;
+}
+.padding-2{
+    padding-top: 2rem;
+}
+header{
+    background-color: var(--header-bg-color);
+    height: 100px;
+}  
+.avatar{
+    width: 200px;
+    margin: auto;
+    
+    
+}  
+.hero{
+    background-color: var(--hero-bg-color) ;
+    min-height: 350px;
+}
+.avatar-container{
+    text-align: center;
+    color: var(--color-white);
+}
+.line{
+    height: .3rem;
+    width: 4rem;
+    background-color: inherit;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    align-items: center;
+
+}
+.line{
+    width: 4rem;
+    background-color: var(--color-white);
+    height: .2rem
+}
+ .job{
+    padding: 0 1rem;
+    font-size: 1rem;
+ }
+
+ /* sezione portfolio */
+ #portfolio h4{
+    text-align: center;
+ }
+ .black{
+    background-color: black;
+ }
+.img-wrap{
+    width: 100%;  
+}
+.img-wrap img{
+    width: 100%;
+}
+
+@media screen and(min-width :1121px){
+  
+}
+.red{
+    background-color: red;
+    height: 200px;
+}
+.blu{
+    background-color: blue;
+    height: 200px;
+}
