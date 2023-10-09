@@ -82,7 +82,7 @@ header{
     margin-top: 3rem;
 }
 .smallest-container{
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: left;
     background-color: orange;
@@ -97,5 +97,36 @@ a{
     color: white;
 }
 h4{
+    text-align: center;
+}
+.identity li:nth-child(5){
+    margin-top: 5rem;
+}
+.identity{
+    list-style: none;
+    padding-bottom: 30px;
+   
+}
+.identity hr{
+    width: 80%;
+}
+.send{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#footer-top{
+    background-color: lightpink;
+    text-align: center;
+}
+.icons{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+/* footer bottom */
+#footer-bottom{
+    background-color: black;
+    color: var(--color-white);
     text-align: center;
 }
