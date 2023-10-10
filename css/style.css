@@ -69,14 +69,6 @@ header{
 @media screen and(min-width :1121px){
   
 }
-.red{
-    background-color: red;
-    height: 200px;
-}
-.blu{
-    background-color: blue;
-    height: 200px;
-}
 
 /* sezione about */
 #about .container-md{
@@ -93,20 +85,18 @@ header{
 #contact .line{
     background-color: var(--bg-footer-top);
 }
-
-    
-
-.download{
-    display: inline-block;
-    padding: 5px 10px;
+.ms_download{
+    background-color: var(--hero-bg-color);
     border: 1px solid white;
-    
 }
-a{
-    text-decoration: none;
-    color: white;
+.ms_download:hover{
+    background-color: var(--hero-bg-color);
+    border: 1px solid white;
 }
-
+.ms_download:hover{
+    background-color: var(--hero-bg-color);
+    border: 1px solid white;
+}    
 /* sezione contact */
 h4{
     text-align: center;
@@ -120,15 +110,32 @@ h4{
     padding-bottom: 30px;
    
 }
+.ms_focus-visible:focus{
+   border: none;
+   box-shadow: none;
+   border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+.ms_focus-visible{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
 .identity hr{
     width: 80%;
 }
-.send{
-    padding: 5px 10px;
-    border-radius: 5px;
+.ms_send{
     background-color: var(--hero-bg-color);
-    color: var(--color-white);
     border: none;
+}
+.ms_send:focus-visible{
+    background-color: var(--hero-bg-color);
+}
+.ms_send:first-child:active{
+    background-color: var(--hero-bg-color);
+}
+.ms_send:hover{
+    background-color: var(--hero-bg-color);
 }
 #footer-top{
     background-color: var(--bg-footer-top);
