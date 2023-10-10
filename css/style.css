@@ -8,54 +8,48 @@
 img*{
     max-width: 100%;
 }
-.padding-2{
-    padding-top: 2rem;
-}
 header{
-    background-color: var(--header-bg-color);
-    height: 100px;
+    background-color: var(--header-bg-color);    
 }  
+h4{
+    font-size: 3rem;
+}
+.navbar>.container, .navbar>.ms_space-around{
+    justify-content: space-around;
+}
+.ms_size{
+    height: 70px;
+    background-color: var(--header-bg-color);
+    
+}
+.ms_bg-white{
+    color: white;
+    
+}
+.ms_title-color{
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.ms_title-color {
+    color: white;
+}
 .avatar{
-    width: 200px;
-    margin: auto;
-    
-    
+    width: 200px;    
 }  
 .hero{
     background-color: var(--hero-bg-color) ;
-    min-height: 350px;
+    
 }
 .avatar-container{
-    text-align: center;
     color: var(--color-white);
 }
 .line{
-    height: .3rem;
-    width: 4rem;
-    background-color: inherit;
-}
-.star{
-    display: flex;
-    justify-content: center;
-    gap: .5rem;
-    align-items: center;
-    padding: 2rem;
-
-}
-.line{
-    width: 4rem;
+    height: .2rem;
+    width: 10rem;
     background-color: var(--color-white);
-    height: .2rem
 }
- .job{
-    padding: 0 1rem;
-    font-size: 1rem;
- }
 
  /* sezione portfolio */
- #portfolio h4{
-    text-align: center;
- }
+ 
  .black{
     background-color: black;
  }
@@ -66,28 +60,23 @@ header{
     width: 100%;
 }
 
-@media screen and(min-width :1121px){
-  
-}
 
 /* sezione about */
 #about .container-md{
     background-color: var(--hero-bg-color);
-    text-align: center;
-    margin-top: 3rem;
     color: var(--color-white);
 }
 .smallest-container{
     width: 70%;
-    margin: auto;
-    text-align: left;
 }
 #contact .line{
     background-color: var(--bg-footer-top);
 }
 .ms_download{
     background-color: var(--hero-bg-color);
-    border: 1px solid white;
+}
+:not(.btn-check)+.ms_download:active{
+    background-color: var(--hero-bg-color);
 }
 .ms_download:hover{
     background-color: var(--hero-bg-color);
@@ -98,27 +87,16 @@ header{
     border: 1px solid white;
 }    
 /* sezione contact */
-h4{
-    text-align: center;
-    
-}
-.identity li:nth-child(5){
-    margin-top: 5rem;
-}
+
 .identity{
     list-style: none;
-    padding-bottom: 30px;
-   
 }
-.ms_focus-visible:focus{
-   border: none;
+.ms_focus-visible:focus{ 
    box-shadow: none;
    border-bottom: 1px solid black;
     border-radius: 0%;
 }
 .ms_focus-visible{
-    border: none;
-    border-bottom: 1px solid black;
     border-radius: 0%;
 }
 .identity hr{
@@ -127,6 +105,7 @@ h4{
 .ms_send{
     background-color: var(--hero-bg-color);
     border: none;
+    color: var(--color-white);
 }
 .ms_send:focus-visible{
     background-color: var(--hero-bg-color);
@@ -139,22 +118,15 @@ h4{
 }
 #footer-top{
     background-color: var(--bg-footer-top);
-    text-align: center;
     color: var(--color-white);
 }
 .icons{
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-    gap: 1rem;
+    list-style: none;     
 }
-.icons li{
-   border: 1px solid white;
+.icons li{ 
    height: 50px;
    width: 50px;
-   line-height: 50px;
-   border-radius: 50%
-   
+   line-height: 50px;    
 }
 .start-bootstrap{
     color: var(--hero-bg-color);
@@ -163,7 +135,5 @@ h4{
 /* footer bottom */
 #footer-bottom{
     background-color: var(--bg-footer-bot);
-    color: var(--color-white);
-    text-align: center;
-    
+    color: var(--color-white);  
 }
