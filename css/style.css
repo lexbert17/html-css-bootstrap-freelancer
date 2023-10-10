@@ -8,12 +8,31 @@
 img*{
     max-width: 100%;
 }
+
+/* elementi in comune  */
+
+.line{
+    height: .2rem;
+    width: 10rem;
+    background-color: var(--color-white);
+}
+
+.black{
+    background-color: black;
+ }
+
+ h4{
+    font-size: 3rem;
+}
+
+/* /elementi in comune */
+
+/* header  */
+
 header{
     background-color: var(--header-bg-color);    
 }  
-h4{
-    font-size: 3rem;
-}
+
 .navbar>.container, .navbar>.ms_space-around{
     justify-content: space-around;
 }
@@ -32,9 +51,12 @@ h4{
 .navbar-nav .nav-link.active, .navbar-nav .show>.ms_title-color {
     color: white;
 }
+/* sezione hero  */
+
 .avatar{
     width: 200px;    
 }  
+
 .hero{
     background-color: var(--hero-bg-color) ;
     
@@ -42,97 +64,106 @@ h4{
 .avatar-container{
     color: var(--color-white);
 }
-.line{
-    height: .2rem;
-    width: 10rem;
-    background-color: var(--color-white);
-}
 
  /* sezione portfolio */
  
- .black{
-    background-color: black;
- }
 .img-wrap{
     width: 100%;  
 }
+
 .img-wrap img{
     width: 100%;
 }
 
-
 /* sezione about */
+
 #about .container-md{
     background-color: var(--hero-bg-color);
     color: var(--color-white);
 }
+
 .smallest-container{
     width: 70%;
 }
-#contact .line{
-    background-color: var(--bg-footer-top);
-}
+
 .ms_download{
     background-color: var(--hero-bg-color);
 }
+
 :not(.btn-check)+.ms_download:active{
     background-color: var(--hero-bg-color);
 }
+
 .ms_download:hover{
     background-color: var(--hero-bg-color);
     border: 1px solid white;
 }
+
 .ms_download:hover{
     background-color: var(--hero-bg-color);
     border: 1px solid white;
-}    
+}   
+
 /* sezione contact */
 
 .identity{
     list-style: none;
 }
+
 .ms_focus-visible:focus{ 
    box-shadow: none;
    border-bottom: 1px solid black;
     border-radius: 0%;
 }
+
 .ms_focus-visible{
     border-radius: 0%;
 }
+
 .identity hr{
     width: 80%;
 }
+
 .ms_send{
     background-color: var(--hero-bg-color);
     border: none;
     color: var(--color-white);
 }
+
 .ms_send:focus-visible{
     background-color: var(--hero-bg-color);
 }
+
 .ms_send:first-child:active{
     background-color: var(--hero-bg-color);
 }
+
 .ms_send:hover{
     background-color: var(--hero-bg-color);
 }
+/* footer superiore */
+
 #footer-top{
     background-color: var(--bg-footer-top);
     color: var(--color-white);
 }
+
 .icons{
     list-style: none;     
 }
+
 .icons li{ 
    height: 50px;
    width: 50px;
    line-height: 50px;    
 }
+
 .start-bootstrap{
     color: var(--hero-bg-color);
 }
 
 /* footer bottom */
+
 #footer-bottom{
     background-color: var(--bg-footer-bot);
     color: var(--color-white);  
